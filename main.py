@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import QWidget, QLabel,QApplication,QHBoxLayout,QVBoxLayout
 
 app = QApplication([])
 main_win = QWidget()
-main_win.setStyleSheet('background-color: black; color: white; font-size: 40px')
+main_win.setStyleSheet('background-color:#AEC6CF; color: white; font-size: 40px')
 main_win.setWindowTitle('Калькулятор')
 
 '''Інтерфейс'''
@@ -22,20 +22,21 @@ button_9 = QPushButton('9')
 
 
 button_plus = QPushButton('+')
-button_plus.setStyleSheet('background-color:#FF8C00')
+button_plus.setStyleSheet('background-color:#B39EB5')
 button_minus = QPushButton('-')
-button_minus.setStyleSheet('background-color: #FF8C00')
+button_minus.setStyleSheet('background-color:#B39EB5')
 button_multiply = QPushButton('*')
-button_multiply.setStyleSheet('background-color: #FF8C00')
+button_multiply.setStyleSheet('background-color:#B39EB5')
 button_divide = QPushButton('/')
 button_divide.setFixedWidth(89)
-button_divide.setStyleSheet('background-color: #FF8C00')
+button_divide.setStyleSheet('background-color:#B39EB5')
 button_dot = QPushButton('.')
 
 button_delete = QPushButton('CE')
-button_delete.setStyleSheet('background-color: 	#FF0000')
+
 button_equals = QPushButton('=')
-button_equals.setStyleSheet('background-color: 	#FF0000')
+
+
 
 h1 = QHBoxLayout()
 h1.addWidget(button_7)
